@@ -909,7 +909,7 @@ df_X_test_std = pd.DataFrame(X_test_std,columns=sr_features)
 
 # %% 
 # PCA Transform
-pca = PCA(n_components=15)
+pca = PCA(n_components=20)
 
 X_train_pca = pca.fit_transform(X_train)
 X_test_pca = pca.transform(X_test)
